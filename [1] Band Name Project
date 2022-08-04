@@ -1,0 +1,15 @@
+#CREATING A RANDOM BAND NAME GENERATOR
+
+#Tasks:
+  #1 Create a greeting
+  #2 Ask the user for the city that they born in
+  #3 Ask the user for the name of an animal
+  #4 Combine the name of the city and animal and show them their band name
+  #5 Make sure the input cursor shows on a new line
+
+print("Welcome to the Random Band Name Generator!")
+print("Please answer the following questions:")
+adjective = input("In one word, how do you feel right now?\n")
+city = input("What city were you born in?\n")
+animal = input("What's your favorite animal?\n" )
+print("The name of your band could be "+adjective+" "+city+" "+animal+"s"+"!")
